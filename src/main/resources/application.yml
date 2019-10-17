@@ -21,7 +21,7 @@ spring:
     driver-class-name:  oracle.jdbc.OracleDriver
     username: kafka
     password: 123
-    url: jdbc:oracle:thin:@192.168.64.12:1521:XE
+    url: jdbc:oracle:thin:@localhost:1521:XE
   jpa:
     hibernate:
       ddl-auto: update
